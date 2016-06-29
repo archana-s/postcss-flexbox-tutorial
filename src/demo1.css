@@ -1,0 +1,13 @@
+.box {
+  box: horizontal center middle;
+  border: 1px solid #CCC;
+  padding: 24px;
+  width: 400px;
+}
+
+.box > img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+}

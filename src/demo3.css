@@ -1,0 +1,59 @@
+.vertical-box {
+  box: vertical;
+}
+
+.horizontal-box.align-items-vertical-center {
+  box: horizontal middle;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #FAFAFA;
+  width: 220px;
+}
+
+ul.main-list {
+  overflow: hidden;
+  height: 420px;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li.main-item:hover {
+  background-color: #333;
+}
+
+li.main-item {
+  padding: 24px;
+}
+
+.list-icon {
+  font-size: 20px;
+  margin-right: 12px;
+  display: block;
+}
+
+.sub-item-list ul {
+  background-color: #444;
+}
+
+.sub-item-list ul li{
+  padding: 12px 24px 12px 36px;
+}
+
+.sub-item-list .fa {
+  padding-right: 8px;
+}
+
+.sub-item-list ul li:hover {
+  background-color: #222;
+}
+
+.sub-item-list {
+  overflow-y: auto;
+}

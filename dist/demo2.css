@@ -1,0 +1,50 @@
+.container {
+  border: 1px solid #CCC;
+  padding: 20px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container > h2 {
+  margin-bottom: 4px;
+}
+
+.container > img {
+  width: 120px;
+}
+
+.container > *:not(:last-child) {
+  margin-right: 12px;
+}
+
+.contents {
+   -webkit-box-flex: 1;
+       -ms-flex: 1;
+           flex: 1;
+}
+
+button {
+  padding: 12px 16px;
+  background-color: darkblue;
+  box-shadow: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: indigo;
+}

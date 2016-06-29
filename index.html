@@ -7,29 +7,93 @@
   <title>postcss-flexbox demo</title>
   <meta name="description" content="PostCSS Flexbox Demo">
   <meta name="author" content="Archana Sankaranarayanan">
+  <script src="https://use.fontawesome.com/ebee4dbd11.js"></script>
 
   <link rel="stylesheet" href="./dist/index.css">
+  <link rel="stylesheet" href="./dist/demo1.css">
+  <link rel="stylesheet" href="./dist/demo2.css">
+  <link rel="stylesheet" href="./dist/demo3.css">
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <section class="demo1">
-    <h2>Demo 1</h2>
-    <div class="box">
-     <img src="dist/images/paris.jpg">
-     <img src="dist/images/london.jpg">
-     <img src="dist/images/sanfrancisco.jpg">
+  <header>
+    <div class="horizontal-box align-items-vertical-center">
+      <span class="fa fa-cogs"></span>
+      <h1> PostCSS Flexbox Examples </h1>
     </div>
-  </section>
-  <section class="demo2">
-    <h2>Demo 2</h2>
-    <section class="container">
-      <img src="dist/images/khajuraho.jpg">
-      <div class="contents">
-        <h2>Visit Khajuraho Temples</h2>
-        <p> Sit, meditate, relax, and enjoy the temples. </p>
+  </header>
+  <section class="contents">
+    <section class="demo1">
+      <h2>Demo 1 - Simple horizontal layout</h2>
+      <div class="box">
+       <img src="dist/images/paris.jpg">
+       <img src="dist/images/london.jpg">
+       <img src="dist/images/sanfrancisco.jpg">
       </div>
-      <button>Book Now</button>
+    </section>
+    <section class="demo2">
+      <h2>Demo 2 - Horizonal layout with properties set on items</h2>
+      <section class="container">
+        <img src="dist/images/khajuraho.jpg">
+        <div class="contents">
+          <h2>Visit Khajuraho Temples</h2>
+          <p> Sit, meditate, relax, and enjoy the temples. </p>
+        </div>
+        <button>Book Now</button>
+      </section>
+    </section>
+    <section class="demo3">
+      <h2>Demo 3 - Vertical layout with re-usable Flexbox containers </h2>
+      <ul class="main-list vertical-box">
+        <li class="main-item horizontal-box align-items-vertical-center">
+          <span class="fa fa-home list-icon"></span>
+          <h4> Main Item 1</h4>
+        </li>
+        <li class="main-item horizontal-box align-items-vertical-center">
+          <span class="fa fa-book list-icon"></span>
+          <h4> Main Item 2</h4>
+        </li>
+        <li class="sub-item-list">
+          <ul>
+            <li>
+              <span class="fa fa-bank"></span>
+              <span>Scroll me</span>
+            </li>
+            <li><span class="fa fa-bicycle"></span>
+    Sub item 1</li>
+            <li>
+              <span class="fa fa-bullhorn"></span>
+              <span>Sub item 2</span>
+            </li>
+            <li>
+              <span class="fa fa-calendar"></span>
+              <span>Sub item 3</span>
+            </li>
+            <li>
+              <span class="fa fa-certificate"></span>
+              <span>Sub item 4</span></li>
+            <li>
+              <span class="fa fa-car"></span>
+              <span>Sub item 5</span></li>
+            <li>
+              <span class="fa fa-camera"></span>
+              <span>Sub item 6</span></li>
+          </ul>
+        </li>
+        <li class="main-item horizontal-box align-items-vertical-center">
+          <span class="list-icon fa fa-pencil"></span>
+          <h4> Main Item 3</h4>
+        </li>
+        <li class="main-item horizontal-box align-items-vertical-center">
+          <span class="list-icon fa fa-cog"></span>
+          <h4> Main Item 4</h4>
+        </li>
+        <li class="main-item horizontal-box align-items-vertical-center">
+          <span class="list-icon fa fa-bars"></span>
+          <h4> Main Item 5</h4>
+        </li>
+      </ul>
     </section>
   </section>
 </body>
