@@ -17,3 +17,4 @@ There are three examples demonstrating the simplicity of using postcss-flexbox t
 * npm install postcss-flexbox
 * npm install autoprefixer
 * gulp process-css - This will process the src css files using the PostCSS plugins and deliver them to the dist directory.
+* View the index.html file to see the examples.
