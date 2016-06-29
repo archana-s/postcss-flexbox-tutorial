@@ -1,0 +1,23 @@
+{
+  "name": "postcss-flexbox-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for postcss-flexbox plugin",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-postcss": "^6.1.1"
+  },
+  "devDependencies": {
+    "postcss-flexbox": "*",
+    "autoprefixer": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "flexbox",
+    "CSS3"
+  ],
+  "author": "Archana Sankaranarayanan",
+  "license": "ISC"
+}
