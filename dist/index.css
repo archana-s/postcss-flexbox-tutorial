@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 400;
+  font-weight: bold;
   padding: 8px 0;
 }
 
@@ -33,8 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
-  margin: 18px 0 12px 0;
+  font-size: 18px;
 }
 
 header {
@@ -49,5 +48,5 @@ header .fa {
 }
 
 .demo1, .demo2, .demo3 {
-  margin: 12px 12px 12px 0;
+  margin: 12px 12px 36px 0;
 }

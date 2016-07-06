@@ -1,8 +1,9 @@
 .container {
   box: horizontal middle left;
-  border: 1px solid #CCC;
-  padding: 20px;
-  width: 600px;
+  background-color: #EDEDED;
+  padding: 12px 16px;
+  width: 640px;
+  border-radius: 6px;
 }
 
 .container > h2 {
@@ -10,7 +11,8 @@
 }
 
 .container > img {
-  width: 120px;
+  width: 90px;
+  border-radius: 2px;
 }
 
 .container > *:not(:last-child) {
@@ -23,14 +25,15 @@
 
 button {
   padding: 12px 16px;
-  background-color: darkblue;
+  background-color: #1DB7A8;
   box-shadow: none;
   border: none;
   color: white;
   font-size: 14px;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 button:hover {
-  background-color: indigo;
+  background-color: #1EB7AF;
 }

@@ -9,14 +9,15 @@
 ul {
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: #FAFAFA;
+  background-color: #F18068;
+  color: white;
   width: 220px;
 }
 
 ul.main-list {
   overflow: hidden;
   height: 420px;
+  border-radius: 6px;
 }
 
 li {
@@ -25,7 +26,7 @@ li {
 }
 
 li.main-item:hover {
-  background-color: #333;
+  background-color: #C26754;
 }
 
 li.main-item {
@@ -39,11 +40,12 @@ li.main-item {
 }
 
 .sub-item-list ul {
-  background-color: #444;
+  background-color: white;
 }
 
 .sub-item-list ul li{
   padding: 12px 24px 12px 36px;
+  background-color: #FFB39B;
 }
 
 .sub-item-list .fa {
@@ -51,7 +53,7 @@ li.main-item {
 }
 
 .sub-item-list ul li:hover {
-  background-color: #222;
+  background-color: #FF9A82;
 }
 
 .sub-item-list {
