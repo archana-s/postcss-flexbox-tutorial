@@ -1,5 +1,7 @@
 ## postcss-flexbox demos
 
+#### (Demo link)[http://htmlpreview.github.io/?https://github.com/archana-s/postcss-flexbox-tutorial/blob/master/index.html]
+
 ### Feature set
 There are three examples demonstrating the simplicity of using postcss-flexbox to build layouts.
 * Demo 1 - Simple horizontal layout
