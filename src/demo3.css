@@ -6,7 +6,12 @@
   box: horizontal middle;
 }
 
-ul {
+.sub-item-list {
+  overflow-y: auto;
+  box-item: flex-1;
+}
+
+.demo3 ul {
   margin: 0;
   padding: 0;
   background-color: #F18068;
@@ -20,7 +25,7 @@ ul.main-list {
   border-radius: 6px;
 }
 
-li {
+.demo3 li {
   list-style-type: none;
   cursor: pointer;
 }
@@ -54,8 +59,4 @@ li.main-item {
 
 .sub-item-list ul li:hover {
   background-color: #FF9A82;
-}
-
-.sub-item-list {
-  overflow-y: auto;
 }

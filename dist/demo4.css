@@ -1,0 +1,91 @@
+.horizontal-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.horizontal-box.align-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.bar-item {
+  margin-right: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar1, .bar2, .bar3, .bar4, .bar5 {
+  width: 45px;
+}
+
+.bar-chart .part1 {
+  background-color: #C2EAE9;
+}
+
+.bar-chart .part2 {
+  background-color: #45CBEA;
+}
+
+.bar1 .part1 {
+  height: 40px;
+}
+
+.bar1 .part2 {
+  height: 30px;
+}
+
+.bar2 .part1 {
+  height: 40px;
+}
+
+.bar2 .part2 {
+  height: 40px;
+}
+
+.bar3 .part1 {
+  height: 50px;
+}
+
+.bar3 .part2 {
+  height: 35px;
+}
+
+.bar4 .part1 {
+  height: 45px;
+}
+
+.bar4 .part2 {
+  height: 55px;
+}
+
+.demo4 {
+  font-size: 9px;
+  font-family: 'Arial';
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  margin-top: 4px;
+}

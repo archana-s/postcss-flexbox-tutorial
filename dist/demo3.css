@@ -21,7 +21,14 @@
           align-items: center;
 }
 
-ul {
+.sub-item-list {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.demo3 ul {
   margin: 0;
   padding: 0;
   background-color: #F18068;
@@ -35,7 +42,7 @@ ul.main-list {
   border-radius: 6px;
 }
 
-li {
+.demo3 li {
   list-style-type: none;
   cursor: pointer;
 }
@@ -69,8 +76,4 @@ li.main-item {
 
 .sub-item-list ul li:hover {
   background-color: #FF9A82;
-}
-
-.sub-item-list {
-  overflow-y: auto;
 }
