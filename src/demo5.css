@@ -1,0 +1,63 @@
+.demo5 .horizontal-box.align-items-absolute-center {
+  box: horizontal center middle wrap;
+}
+
+.vertical-box.align-items-absolute-center {
+  box: vertical center middle;
+}
+
+.message {
+  box-item: flex-1;
+}
+
+.actions.horizontal-box {
+  box: horizontal middle center wrap-reverse;
+  margin-top: 18px;
+}
+
+.demo5 img {
+  width: 280px;
+  margin-right: 12px;
+}
+
+.banner {
+  width: 700px;
+  padding: 12px;
+  border: 1px solid #DDD;
+}
+
+.message h2 {
+  font-size: 20px;
+}
+
+.demo5 button {
+  margin: 0 4px 8px 0;
+  width: 180px;
+}
+
+button.inactive {
+  background-color: #ccc;
+  color: black;
+}
+
+@media (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .banner {
+      width: 550px;
+    }
+}
+
+@media (min-device-width: 320px)
+  and (max-device-width: 480px) {
+  .banner {
+    width: 300px;
+  }
+
+  .demo5 button {
+    width: 100%;
+  }
+
+  .demo5 img {
+    width: 200px;
+  }
+}
