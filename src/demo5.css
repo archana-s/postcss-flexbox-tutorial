@@ -26,6 +26,13 @@
   border: 1px solid #DDD;
 }
 
+.banner.phone {
+  width: 300px;
+}
+.banner.tablet {
+  width: 550px;
+}
+
 .message h2 {
   font-size: 20px;
 }
