@@ -50,3 +50,20 @@ header .fa {
 .demo1, .demo2, .demo3, .demo4, .demo5 {
   margin: 12px 12px 52px 0;
 }
+
+.git-logo {
+  width: 28px;
+}
+
+.repo {
+  font-size: 12px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
